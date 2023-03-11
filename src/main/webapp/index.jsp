@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<main>
-<p>If you see this message in the browser, then Tomcat is working!</p>
-</main>
+	<main>
+		<p>Hi! The Calculationator isn't ready yet, but it will be soon!</p>
+	</main>
 </body>
 </html>

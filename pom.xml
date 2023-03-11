@@ -11,8 +11,7 @@
 	<packaging>war</packaging>
 
 	<name>calculationator-gmquick Maven Webapp</name>
-	<!-- FIXME change it to the project's website -->
-	<url></url>
+	<url>calculationator-gmquick.herokuapp.com</url>
 
 	<properties>
 		<java.version>11</java.version>
@@ -28,6 +27,16 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+    		<artifactId>slf4j-simple</artifactId>
+    		<version>1.7.30</version>
+    		<!-- NOTE: It was necessary to leave out the test scope
+    			 declaration to avoid errors.  -->
+<!--    		<scope>test</scope>-->
+		</dependency>
+		
 		<dependency>
 			<groupId>com.heroku</groupId>
 			<artifactId>webapp-runner</artifactId>
